@@ -1,0 +1,61 @@
+{
+  "name": "eng-vocab-learner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.7",
+    "@mui/styled-engine": "^5.2.6",
+    "@mui/x-data-grid": "^5.2.2",
+    "aws-sdk": "^2.1052.0",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv-defaults": "^3.0.0",
+    "mock-aws-s3": "^4.0.2",
+    "mongoose": "^6.1.5",
+    "nock": "^13.2.1",
+    "nodemon": "^2.0.15",
+    "npx": "^10.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js --ext js --exec babel-node",
+    "build": "react-scripts build",
+    "start_react": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7"
+  }
+}
