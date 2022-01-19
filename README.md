@@ -15,6 +15,9 @@ To open frontend (you may need to type 'y' in the terminal since it shares the s
 ### MongodB Databse
 Remember to change MONGDB_URL in .env.defaults. to your own MONGODB_URL in order to conecct to database.
 
+Change 'INSERT_YOUR_MONGODB_URL" in /crawler/upload.js to your only MONGDB_URL
+then call node --experimental-json-modules upload.js to upload level*.json to mongdb server (* is specified when importing json file in upload.js line 1 )
+
 ### Deployment
 You can deploy the app to heroku without changing any code (apart from .env.defaults)  
 
